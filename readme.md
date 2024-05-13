@@ -7,7 +7,7 @@ A Group video calling application using the Agora Web SDK with a Django backend.
 
 #### 1 - Clone repo
 ```
-git clone https://github.com/divanov11/mychat
+git clone https://github.com/maruf-rahman007/My-Chat.git
 ```
 
 #### 2 - Install requirements
@@ -19,7 +19,7 @@ pip install -r requirements.txt
 #### 3 - Update Agora credentals
 In order to use this project you will need to replace the agora credentials in `views.py` and `streams.js`.
 
-Create an account at agora.io and create an `app`. Once you create your app, you will want to copy the `appid` & `appCertificate` to update `views.py` and `streams.js`. If you have questions about where to get your app I'd recommend referencing this link `https://youtu.be/HX6AM_1-jNM?t=88`
+Create an account at agora.io and create an `app`. Once you create your app, you will want to copy the `appid` & `appCertificate` to update `views.py` and `streams.js`.
 
 ###### views.py
 ```
@@ -46,7 +46,7 @@ Make sure you have docker installed in your machine
 
 #### 1 - Clone repo
 ```
-git clone https://github.com/divanov11/mychat
+git clone https://github.com/maruf-rahman007/My-Chat.git
 ```
 
 #### 2 - Install requirements
@@ -57,7 +57,7 @@ cd mychat
 #### 3 - Build Docker Image
 ```
 
-docker build - mychat .
+docker build -t mychat .
 ```
 
 #### 4 - Running Image
